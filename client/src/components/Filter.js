@@ -82,14 +82,7 @@ const Filter = observer(() => {
 
 	// ПОФИКСИТЬ ЦВЕТ!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-	let colors = [
-		"Белый",
-		"Черный",
-		"Красный",
-		"Синий",
-		"Голубой",
-		"Желтый",
-	];
+	let colors = ["Белый", "Черный", "Красный", "Синий", "Голубой", "Желтый"];
 
 	const serialize = (obj) => {
 		for (let propName in obj) {
@@ -292,7 +285,7 @@ const Filter = observer(() => {
 							},
 						})
 					}
-					onChange={(e) => changeradio(e, "heigthmin", "heigthmax")}
+					onChange={(e) => changeradio(e, "heightmin", "heightmax")}
 					step={1}
 				/>
 			</div>

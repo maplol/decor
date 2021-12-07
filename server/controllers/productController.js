@@ -52,6 +52,7 @@ class ProductController {
 		let heightmax = req.query.heightmax;
 		let heightmin = req.query.heightmin;
 
+		console.log(req.query);
 		let product = await Product.findAll({
 			where: [
 				typeId !== "undefined" ? { typeId } : {},

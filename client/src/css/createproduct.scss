@@ -1,5 +1,6 @@
 .add-file {
 	position: fixed;
+	z-index: 9999999;
 	top: 0;
 	left: 0;
 	display: flex;
@@ -7,9 +8,9 @@
 	background-color: white;
 	border: 1px solid #000000;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	height: 100%;
 	width: 350px;
-
 	button {
 		margin: 10px 0;
 		background: #38b7df;
