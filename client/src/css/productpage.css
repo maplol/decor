@@ -1,0 +1,71 @@
+.product-page {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 900px auto;
+      grid-template-columns: 900px auto;
+  grid-gap: 15px;
+}
+
+.product-page .image-block {
+  cursor: pointer;
+}
+
+.product-page .image-block .product-image {
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.12);
+}
+
+.product-page .like {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  gap: 5px;
+  z-index: 0 !important;
+  cursor: pointer;
+}
+
+.product-page .like img {
+  width: 25px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 35px;
+}
+
+.loader {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  position: relative;
+}
+
+.loader .loader-in {
+  position: absolute;
+}
+
+.movable {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000 !important;
+  min-width: 100%;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+/*# sourceMappingURL=productpage.css.map */

@@ -1,0 +1,115 @@
+.add-file {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  border: 1px solid #000000;
+  overflow-y: scroll;
+  height: 100%;
+  width: 350px;
+}
+
+.add-file button {
+  margin: 10px 0;
+  background: #38b7df;
+  text-decoration: none;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 43px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #38b7df;
+  text-decoration: none;
+  padding: 2px 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.add-file button:hover {
+  background-color: #0368db;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: white;
+}
+
+.add-file button:active {
+  background-color: #014899;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  color: white;
+}
+
+.add-file hr {
+  width: 100%;
+  margin: 0;
+  border: 1px solid black;
+  background-color: #000000;
+}
+
+.add-file a {
+  color: #0d6b88;
+  cursor: pointer;
+  text-align: center;
+}
+
+.add-file .infos,
+.add-file label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.add-file .infos input,
+.add-file label input {
+  margin-top: 10px;
+  border: 0;
+  border-bottom: 1px solid #000000;
+  font-size: 20px;
+}
+
+.add-file .infos input:focus,
+.add-file label input:focus {
+  outline: none;
+}
+
+.add-file .types {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.add-file .types label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.add-file .types label input {
+  margin: 0 5px 0 0;
+}
+/*# sourceMappingURL=createproduct.css.map */
